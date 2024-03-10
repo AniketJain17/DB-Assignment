@@ -1,5 +1,4 @@
 <h1 align="center">Second round of Assessment [Full Stack Developer]</h1>
--------
 
 **Questions**
 
@@ -7,7 +6,7 @@
 
 ### Q1. Explain the relationship between the "Product" and "Product_Category" entities from the above diagram. ###
 
-```bash
+```js
 Ans. The relationship between the "Product" and "Product_Category" entities is established through a foreign key relationship. In particular, the "product" table's category_id column acts as a foreign key, creating a vital connection between these two databases. The referential integrity concept is upheld by this foreign key connection, guaranteeing that every product is closely linked to an authorized product category. Essentially, the values that are kept in the category_id column of the "product" database need to match the values that are already present in the "product_category" table's primary key column (id). Multiple goods can be classified under the same product category in this relationship, which is known as a many-to-one link. This allows for flexibility and organization within the database structure.
 ```
 -------
